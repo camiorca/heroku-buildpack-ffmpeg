@@ -16,7 +16,7 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     https://github.com/shunjikonishi/heroku-buildpack-ffmpeg
     https://github.com/heroku/heroku-buildpack-play
 
-    $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
+    $ heroku create --buildpack https://github.com/camiorca/heroku-buildpack-multi
 
     $ git push heroku master
     ...
@@ -30,3 +30,6 @@ Hacking
 If you want to use your own ffmpeg binary, fork and rewrite following line.
 
 https://github.com/shunjikonishi/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
+
+Note:
+The original version of this project lost its support on January 1, 2017. Because of this, a fork of the project is required ifyou need to use this buildpack in your Python project.
